@@ -1,9 +1,10 @@
-import React from 'react';
+import CrearProducto from "./Secciones/CrearProducto";
 
 const Administracion = () => {
     return (
         <div>
-            <p>Desde Administracion</p>
+            <p>Crear Producto</p>
+            <CrearProducto/>
         </div>
     );
 }
